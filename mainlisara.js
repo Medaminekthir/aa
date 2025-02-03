@@ -1,4 +1,4 @@
-
+console.log('gg')
 function esmk(){
     let p=prompt('give your name : ');
 
@@ -80,4 +80,15 @@ function positions(){
 
     }
     
+}
+function fin(){
+    test1=true
+    gify=document.querySelector('.gif')
+    lablebi=document.querySelector('.lablebi')
+    dd=document.querySelector('.fin')
+    if(test1===true){
+        dd.classList.add('fin1')
+        lablebi.classList.add('lablebi1')
+        gify.classList.add('gif1')
+    }
 }
