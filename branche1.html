@@ -5,10 +5,49 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='branche1.css'>
-    <script src='branche1.js'></script>
-</head>
-<body>
+    <style>
+body{background-color: pink;}
+.div{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+
+    </style>
     
+    
+</head>
+<body >
+    <div class="div"><a onclick="esmk()" href="mainlisara.html">CLICK ME</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script >
+
+function esmk(){
+     userName= prompt("Please enter your name:");
+
+if (userName!== null && p.trim() !== "") {
+    localStorage.setItem("userName", userName); // Save the name in localStorage
+    window.location.href ="mainlisara.html"; // Navigate to the second page
+} else {
+    alert("You did not enter a name.");
+}
+   
+}
+</script>
 </body>
 </html>
