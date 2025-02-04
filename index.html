@@ -40,11 +40,12 @@ body{background-color: pink;}
 function esmk(){
      userName= prompt("Please enter your name(名前を入力してください):");
 
-if (userName!== null && p.trim() !== "") {
+if (userName!== null && userName.trim() !== "") {
     localStorage.setItem("userName", userName); // Save the name in localStorage
     window.location.href ="mainlisara.html"; // Navigate to the second page
 } else {
     alert("You did not enter a name.");
+     userName= prompt("Please enter your name(名前を入力してください):");
 }
    
 }
