@@ -1,5 +1,6 @@
 *{padding: 0;margin: 0;;}
-body{ background-image: url('papions.jpg');background-repeat: no-repeat ;background-attachment: fixed;background-size: cover;}
+body{ background-image: url('papion.jpg');background-repeat: no-repeat ;background-attachment: fixed;background-size: cover;}
+
 /***id****/
 .esm{font-size: 60px;transform:skew(-25deg);color: red;background-color: rgba(159,76,95,0,552);width: fit-content;position: absolute;left: 60%;border-radius: 10%;}
 .h1{font-size: 60px;transform:skew(-25deg);color: red;background-color: rgba(159,76,95,0,552);width: fit-content;position: absolute;right: 50%;top: 61px;border-radius: 10%}
