@@ -1,16 +1,10 @@
-console.log('gg')
-function esmk(){
-    let p=prompt('give your name : ');
-
-
-while(p.length===0){
-    p=prompt('give your name(required) : ');
-    console.log(p);
+function pp(){
+userName = localStorage.getItem('userName');
+if(userName){
+document.querySelector('.esm').innerHTML=userName
+}
 }
 
-document.querySelector('#esm').innerText=p;
-
-}
 /*************************************************************************************** */
 function positions(){
    
